@@ -988,6 +988,7 @@ GameObject:
   - component: {fileID: 1596796561}
   - component: {fileID: 1596796565}
   - component: {fileID: 1596796564}
+  - component: {fileID: 1596796566}
   m_Layer: 0
   m_Name: "\u6A5F\u5668\u4EBA"
   m_TagString: Untagged
@@ -1119,6 +1120,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1596796566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596796560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b93649e4a9c5943b13e871b94a0176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3.5
+  jump: 300
+  isGround: 0
+  name: robot
 --- !u!1 &1866521322
 GameObject:
   m_ObjectHideFlags: 0
