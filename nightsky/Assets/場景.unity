@@ -1119,7 +1119,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1596796566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,10 +1132,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0b93649e4a9c5943b13e871b94a0176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 10
   jump: 300
   isGround: 0
-  name: robot
+  _name: robot
+  r2d: {fileID: 1596796565}
+  ani: {fileID: 1596796561}
 --- !u!1 &1866521322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636079645338085145, guid: c6cf6b4574d564245b563708a4a5fd0b,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cf6b4574d564245b563708a4a5fd0b, type: 3}
